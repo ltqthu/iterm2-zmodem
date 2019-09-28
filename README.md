@@ -2,6 +2,7 @@
 Convenient upload and download file operations with the linux server in MacOS.
 
 Fork from https://github.com/mmastrac/iterm2-zmodem
+[Warning] This link is useless.
 
 # Installation
 
