@@ -8,8 +8,10 @@ Fork from https://github.com/mmastrac/iterm2-zmodem
 ## Prerequisite
 - brew
 - iterm2
-
+install iterm2 with brew:
+```bash
 brew cask install iterm2
+```
 
 ## Step
 
@@ -18,17 +20,19 @@ install lrzsz:
 brew install lrzsz
 ```
 
-Download `iterm2-send-zmodem.sh` and `iterm2-recv-zmodem.sh`
+Download `iterm2-send-zmodem.sh` and `iterm2-recv-zmodem.sh`:
 ```bash
+wget https://raw.githubusercontent.com/xmvper/iterm2-zmodem/master/iterm2-send-zmodem.sh
 
+wget https://raw.githubusercontent.com/xmvper/iterm2-zmodem/master/iterm2-recv-zmodem.sh
 ```
 
-move to `/usr/local/bin/`
+move to `/usr/local/bin/`:
 ```bash
 mv iterm2-send-zmodem.sh iterm2-recv-zmodem.sh /usr/local/bin/
 ```
 
-change permission
+change permission:
 ```bash
 cd /usr/local/bin/
 chmod 777 /usr/local/bin/iterm2-*
@@ -47,7 +51,5 @@ Action: Run Silent Coprocess
 Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 Instant: checked
 ```
-
-
 
 
